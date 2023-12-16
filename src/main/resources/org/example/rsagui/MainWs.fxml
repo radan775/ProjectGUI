@@ -5,7 +5,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="251.0" prefWidth="600.0" styleClass="mainPane" stylesheets="@MainWindows.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.rsagui.HelloController">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="600.0" styleClass="mainPane" stylesheets="@MainWindows.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.rsagui.HelloController">
    <children>
       <Button fx:id="encrypt" layoutX="104.0" layoutY="126.0" mnemonicParsing="false" onAction="#encryptButton" prefHeight="60.0" prefWidth="150.0" styleClass="mainButton" stylesheets="@MainWindows.css" text="ENCRPYT">
          <font>
@@ -22,5 +22,10 @@
             <Font size="24.0" />
          </font>
       </Text>
+      <Button fx:id="close" layoutX="244.0" layoutY="218.0" mnemonicParsing="false" onAction="#view_close" prefHeight="32.0" prefWidth="112.0" styleClass="mainButton" stylesheets="@MainWindows.css" text="Close">
+         <font>
+            <Font name="Goudy Old Style Bold" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

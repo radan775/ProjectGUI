@@ -22,6 +22,9 @@ public class HelloController {
 
     @FXML
     private Button back;
+    
+    @FXML
+    private Button close;
 
     public void encryptButton() throws IOException{
         Stage stage = (Stage) encrypt.getScene().getWindow();
@@ -51,5 +54,10 @@ public class HelloController {
         Scene scene = new Scene(fxmlLoader.load());
         PrimaryStage.setScene(scene);
         PrimaryStage.show();
+    }
+
+    public void view_close() throws IOException{
+        Stage stage = (Stage) close.getScene().getWindow();
+        stage.close();
     }
 }
