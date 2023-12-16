@@ -16,6 +16,7 @@ public class MainMenu extends Application {
         stage.setScene(scene);
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
+        stage.close();
         stage.show();
     }
 
